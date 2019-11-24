@@ -1,0 +1,179 @@
+@media (max-width: 62.5em) {
+	body {
+		font-size: 0.9em;
+	}
+}
+
+@media (max-width: 56.25em) {
+	body {
+		font-size: 0.8em;
+	}
+}
+
+@media (max-width: 50em) {
+	body {
+		font-size: 0.7em;
+	}
+}
+
+@media (max-width: 43.75em) {
+		.our_services {
+		margin: 0 auto 35em;
+		flex-direction: column;
+	}
+	
+	.service {
+		min-height: 9.375em;
+		max-width: 80%;
+		margin: 2em auto;
+		position: relative;
+	}
+
+	.service1,
+	.service3 {
+		padding: 2.5em 0 2.5em 11.25em;
+	}
+	
+	.service2 {
+		padding: 2.5em 11.25em 2.5em 0;
+	}
+	
+	.service:before {
+		content: "";
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		height: 9.375em;
+		width: 9.375em;
+		border: 0.375em solid #fff;
+		border-radius: 50%;
+		background-size: 3.4375em auto;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+
+	.service1:before,
+	.service3:before {
+		left: 0;
+	}
+	
+	.service2:before {
+		left: unset;
+		right: 0;
+		background-size: 3.625em auto !important;
+	}
+
+	.cotnacts {
+		width: 85%;
+  }
+}
+
+@media (max-width: 33.125em) {
+	.navigation ul {
+		display: none;
+	}
+
+	.header_btn-menu {
+		display: block;
+	}
+
+	.story_1, .story_3 {
+		padding-right: 3.125em;
+	}
+
+	.story_2, .story_4 {
+		padding-left: 3.125em;
+	}
+
+	.service {
+		max-width: 90%;
+	}
+
+	.cotnacts {
+		min-height: 6em;
+		position: relative;
+	}
+
+	.contact {
+		position: absolute;
+		height: 4em;
+		width: unset;
+		min-width: 33%;
+	}
+
+	.contact_phone {
+		top: 4em;
+		left: 0;
+	}
+
+	.contact_point {
+		top: 0;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+	.contact_mail {
+		top: 4em;
+		right: 0;
+	}
+}
+
+@media (max-width: 29.375em) {
+	.story_1, .story_3 {
+		padding-right: 2.5em;
+	}
+
+	.story_2, .story_4 {
+		padding-left: 2.5em;
+	}
+
+	.our_team-content {
+		flex-direction: column;
+	}
+
+	.team_member {
+		max-width: 80%;
+		margin: 4.375em auto;
+		padding-top: 0;
+	}
+
+	.team_member + .team_member {
+		margin-top: 5.625em;
+	}
+
+	.team_member1,
+	.team_member3 {
+		padding-left: 12.375em;
+	}
+
+	.team_member2 {
+		padding-right: 12.375em;
+	}
+
+	.team_member1:before,
+	.team_member3:before {
+		top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+	}
+
+	.team_member2:before {
+		top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+	}
+
+	.service {
+		max-width: 95%;
+	}
+}
+
+@media (max-width: 25em) {
+	.team_member {
+		max-width: 92%;
+	}
+
+	.setvices_top {
+		margin-bottom: 11.125em;
+	}
+}
